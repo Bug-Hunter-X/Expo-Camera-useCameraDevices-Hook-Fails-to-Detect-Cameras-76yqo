@@ -1,0 +1,1 @@
+This bug occurs when using Expo's `Camera` component with the `useCameraDevices` hook.  The hook sometimes fails to return any camera devices, even when cameras are available on the device. This leads to a blank screen or an error message indicating that no camera devices were found.
